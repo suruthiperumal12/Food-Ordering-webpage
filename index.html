@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <h1 style="text-align: center;font-style: italic;">SpicySpot</h1>
+            <ul>
+                <li>Home|</li>
+                <li>Receipe|</li>
+                <li>Contact|</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="product">
+        <div class="box">
+            <img src="/images/briyani.jpg" alt="briyani image">
+            <p style="font-weight: bold;">Chettinadu Mutton briyani</p>
+            <p>Would you like this:)Please order now.</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="box">
+            <img src="/images/paratto.jpg" alt="paratto image">
+            <p style="font-weight: bold;">Parotta and Chicken curry</p>
+            <p>Would you like this:)Please order now.</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="box">
+            <img src="/images/prawn.jpg" alt="prawn gravy image" height='30%'>
+            <p style="font-weight: bold;">Spicy Prawn Gravy</p>
+            <p>Would you like this:)Please order now.</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="box">
+            <img src="/images/fishfry.jpg" alt="fishfry image" height='30%'>
+            <p style="font-weight: bold;">Masala Fish Fry</p>
+            <p>Would you like this:)Please order now.</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+    </div>
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <p>Phone No:+91 6788901234</p>
+        <p>Email:spicyshot@gmail.com</p>
+        <p>Address:1, Inner Ring Road (Jawaharlal Nehru Road), Koyambedu, Chennai, Tamil Nadu- 600107</p>
+    </div>
+    <div class="overlay">
+        <div class="popup">
+            <form>
+                <input type="text" id="foodtype" placeholder="Foodname"><br>
+                <input type="text" id="quantity" placeholder="Quantity"><br>
+                <button id="close-btn" onclick="closepopup(event)">Orderplaced</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
