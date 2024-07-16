@@ -1,26 +1,23 @@
 * {
-    margin: 0
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background: grey;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
 }
 
 .navbar {
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 15px;
     position: sticky;
-    top: 10px;
 }
 
 ul {
     display: inline-block;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: 0%;
 }
 
@@ -47,6 +44,7 @@ li:hover {
     border: solid black 2px;
     display: inline-block;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .box button {
@@ -56,6 +54,8 @@ li:hover {
     outline: none;
     margin: 5px;
     border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 
 }
 
@@ -67,6 +67,8 @@ li:hover {
     background-color: black;
     text-align: center;
     color: white;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .overlay {
@@ -129,6 +131,10 @@ li:hover {
     background-color: plum;
 }
 
+.popup button:focus {
+    outline: none;
+}
+
 .contact img {
     width: 30px;
     height: 30px;
@@ -150,12 +156,12 @@ li:hover {
 
 @media screen and (max-width:600px) {
     .navbar {
-        width: 92%;
-        margin-left: 15px;
+        width: 100%;
+
     }
 
     .contact {
-        width: 90%;
-        margin-left: 20px;
+        width: 100%;
+
     }
 }
